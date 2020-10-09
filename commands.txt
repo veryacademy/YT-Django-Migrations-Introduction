@@ -1,0 +1,5 @@
+py manage.py makemigrations
+py manage.py migrate
+py manage.py startapp blog
+py manage.py sqlmigrate blog 0001
+py manage.py showmigrations
